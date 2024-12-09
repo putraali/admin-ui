@@ -3,13 +3,12 @@
     height: 100vh;
     position: sticky;
     top: 0;
-  }
-  
-  .bg-purple {
-    background-color: #563D7C !important;
+    color: #f5f2ed;
+    background-color: #17412d ;
   }
   
   .container-admin {
     padding: 2rem;
+    background-color: #f5f2ed;
   }
   

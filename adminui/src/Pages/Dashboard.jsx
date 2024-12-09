@@ -30,7 +30,7 @@ function Dashboard() {
     <div className="d-flex">
       {/* Sidebar */}
       {sidebarOpen && (
-        <nav className="sidebar-admin bg-purple text-white">
+        <nav className="sidebar-admin">
           <div className="p-4">
             <h4 className="text-white">FarmEDuz Admin</h4>
           </div>
@@ -81,7 +81,7 @@ function Dashboard() {
 
       {/* Main Content */}
       <div className="main-content flex-grow-1">
-        <header className="d-flex justify-content-between align-items-center bg-white py-3 px-4 shadow-sm">
+        <header className="d-flex justify-content-between align-items-center py-3 px-4 shadow-sm" style={{backgroundColor:"#f5f2ed"}}>
           <h5 className="mb-0">Members</h5>
           <div className="d-flex align-items-center">
             <div className="text-end me-4">
@@ -130,13 +130,13 @@ function Dashboard() {
                 Add New
               </button>
               <button
-                className="btn btn-outline-primary me-2"
+                className="btn btn-outline me-2"
                 onClick={handleImportMembers}
               >
                 Import Members
               </button>
               <button
-                className="btn btn-outline-primary"
+                className="btn btn-outline"
                 onClick={handleExportMembers}
               >
                 Export Members (Excel)

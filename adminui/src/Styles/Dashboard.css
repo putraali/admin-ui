@@ -1,0 +1,15 @@
+.sidebar-admin {
+    width: 250px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+  
+  .bg-purple {
+    background-color: #563D7C !important;
+  }
+  
+  .container-admin {
+    padding: 2rem;
+  }
+  
